@@ -1,0 +1,98 @@
+html , body{
+    margin : auto ; 
+    padding : auto ; 
+
+}
+
+.cont{
+    width:100%;
+    height:100vh;
+    background:url("./sushi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.shadow{
+    width:100%;
+    height:100%;
+    position: absolute;
+    background:rgba(0, 0, 0, 0.807);
+}
+
+#title{
+    color:#fff;
+    font-weight:bold;
+    font-size: 40px;
+    display:block;
+    text-align:center;
+}
+
+input{
+    background:none;
+    border:none;
+    border-bottom:1px solid #fff;
+    outline :0;
+    padding:10px;
+    width:500px;
+    margin:auto;
+    color:white;
+    font-size:20px;
+    display: block;
+    margin-top:20px;
+}
+
+.form_container{
+    width:100%;
+    text-align:center;
+    
+    
+
+}
+.gender{
+    display:flex;
+    width:230px;
+    margin:auto;
+    text-align:center;
+    display: flex;
+    padding: 1px 10px 1px 10px;
+    margin-top:20px;
+    border-radius:2px;
+    background:rgba(255, 255, 255, 0.272);
+}
+.gender p{
+    color:white;
+}
+.gender input{
+    margin-top:22px;
+}
+.flex{
+    display: grid;
+    grid-column: 2;
+}
+
+select{
+    padding:20px;
+    width:400px;
+    margin-top:20px;
+    background:none;
+    color:#fff;
+
+}
+option{
+    color:black;
+}
+button{
+    margin-top:20px;
+    background:none;
+    transition-duration: 0.5s;
+    color:#fff;
+    border:1px solid #fff;
+    width:200px;
+    height:45px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgba(196, 141, 23, 0.746);
+}
